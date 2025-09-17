@@ -1,0 +1,14 @@
+.checkBox:checked {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+.checkBox:checked + .form-check-label {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.checkBox:focus,
+.float-end {
+  box-shadow: none !important;
+}
